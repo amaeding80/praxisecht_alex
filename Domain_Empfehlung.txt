@@ -1,0 +1,28 @@
+Domain-Empfehlung – Alexander Mäding Webdesign für Arztpraxen
+=============================================================
+
+HINWEIS: Spezielle Endungen wie .design, .studio, .agency etc. kosten
+oft deutlich mehr (bis 30–50 €/Jahr extra). Daher: .de ist die bessere Wahl.
+
+EMPFEHLUNG (Hauptdomain)
+  maeding.de
+  → Kurz, sauber, persönliche Marke. Günstig, bekannt, seriös.
+  → Beispiel E-Mail: alexander@maeding.de
+  → Nach Namensänderung einfach auf haring.de umziehen
+
+BACKUP (SEO-Domain, weiterleiten auf Hauptdomain)
+  arztpraxis-webdesign.de
+  → Keyword-stark für Google. Wer "Webdesign Arztpraxis" sucht, landet direkt hier.
+
+WEITERE OPTIONEN (.de)
+  alexander-maeding.de    → Persönlich, klar
+  maeding-webdesign.de    → Name + Profession, solide Alternative
+
+STRATEGIE
+  1. maeding.de als Hauptdomain registrieren
+  2. arztpraxis-webdesign.de zusätzlich sichern + auf Hauptdomain weiterleiten
+  → So: starke Marke UND SEO-Traffic
+
+BEI NAMENSÄNDERUNG (Mäding → Haring)
+  haring.de registrieren → maeding.de leitet automatisch weiter
+  Kein Datenverlust, keine Google-Strafe, Umzug in unter 1 Stunde

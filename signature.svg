@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" width="420" height="160" fill="none">
+  <style>
+    path { stroke: #1a2a6c; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+  </style>
+
+  <!-- A. -->
+  <!-- Das "A" - kleines, kompaktes A links -->
+  <path d="M 28 95 C 32 75, 40 58, 48 55 C 52 53, 56 58, 58 68 C 61 82, 60 95, 58 100" stroke-width="2.2"/>
+  <path d="M 34 82 C 40 80, 50 80, 56 82" stroke-width="2"/>
+  <!-- Punkt nach A -->
+  <circle cx="67" cy="98" r="2.5" fill="#1a2a6c" stroke="none"/>
+
+  <!-- Großer fließender Nachname "Mäding" -->
+  <!-- Erster großer Aufstrich / M-Beginn -->
+  <path d="M 88 98
+           C 90 90, 92 78, 96 60
+           C 100 40, 108 22, 118 18
+           C 126 15, 132 22, 136 35
+           C 140 48, 140 65, 138 78
+           C 136 88, 132 96, 130 100" stroke-width="2.4"/>
+
+  <!-- Mittlerer Bogen -->
+  <path d="M 130 100
+           C 134 88, 142 70, 150 62
+           C 157 55, 164 56, 168 65
+           C 172 74, 170 88, 166 98
+           C 163 106, 158 110, 155 108" stroke-width="2.2"/>
+
+  <!-- Übergang und letzter Teil -->
+  <path d="M 166 72
+           C 172 60, 182 50, 192 50
+           C 200 50, 205 58, 207 70
+           C 209 82, 206 95, 202 104
+           C 198 112, 192 116, 188 112" stroke-width="2.2"/>
+
+  <!-- "d" mit Schlaufe -->
+  <path d="M 200 68
+           C 205 55, 214 45, 222 44
+           C 230 43, 234 52, 234 65
+           C 234 80, 228 98, 222 108
+           C 218 114, 213 115, 210 110" stroke-width="2.2"/>
+
+  <!-- "ing" Ende + langer Schwung nach rechts-unten -->
+  <path d="M 234 70
+           C 238 62, 246 58, 252 62
+           C 258 66, 258 78, 254 90
+           C 251 98, 245 104, 240 102" stroke-width="2.2"/>
+
+  <path d="M 252 72
+           C 258 66, 266 65, 272 70
+           C 278 76, 278 90, 274 102
+           C 271 110, 265 114, 260 110" stroke-width="2.2"/>
+
+  <!-- Langer Unterschwung / Unterstreicher -->
+  <path d="M 260 108
+           C 272 112, 295 118, 320 122
+           C 350 126, 375 124, 395 116
+           C 408 110, 412 102, 410 96
+           C 407 88, 395 84, 375 84" stroke-width="2.3"/>
+
+  <!-- Kleines Häkchen/Kreis am Ende (der charakteristische Loop) -->
+  <path d="M 210 110
+           C 205 122, 200 132, 208 140
+           C 218 150, 235 148, 248 140
+           C 260 132, 266 118, 260 108" stroke-width="2.1"/>
+</svg>

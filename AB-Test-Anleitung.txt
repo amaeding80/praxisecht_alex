@@ -1,0 +1,59 @@
+A/B TEST – Anleitung
+====================
+
+Die Webseite testet automatisch 4 verschiedene Hero-Texte.
+Jeder Besucher sieht immer dieselbe Variante (zufällig zugewiesen).
+
+
+DIE 4 VARIANTEN
+---------------
+
+A – „Stiller Mitarbeiter"
+   Ihre Webseite arbeitet, während Sie Patienten behandeln: Sie erscheint auf
+   Google, zeigt wer Sie sind — und neue Patienten buchen Termine selbst, ohne Anruf.
+
+B – „8 Minuten vs. 1 Minute"
+   Ein Terminanruf dauert 8 Minuten. Eine Online-Buchung: 1 Minute. Ich baue
+   die Webseite, die das für Ihre Praxis ändert — in ~2 Wochen.
+
+C – „Google-Wettbewerb"
+   Jeden Tag suchen Patienten in Ihrer Stadt nach einem Arzt. Ob sie Ihre
+   Praxis finden — oder die vom Kollegen — entscheidet Ihre Webseite.
+
+D – „3 Versprechen"
+   Neue Patienten finden Sie. Termine buchen sich selbst. Ihr Team hat wieder
+   Luft. Das macht eine gute Praxis-Webseite — ich baue sie.
+
+
+STATISTIKEN ABRUFEN
+--------------------
+
+1. index.html im Browser öffnen (Chrome oder Safari)
+2. In der Adressleiste ans Ende der URL folgendes anhängen:
+
+   ?variant=stats
+
+   Beispiel:
+   file:///Volumes/Ext_aM_1TB/_Akquise/Interessenten/Webseite_Alexander_Maeding/index.html?variant=stats
+
+   → Es erscheint ein Panel mit Aufrufen und Prozentwerten pro Variante.
+
+
+EINZELNE VARIANTE TESTEN (zählt nicht ins Tracking)
+----------------------------------------------------
+
+?v=a   → Variante A anzeigen
+?v=b   → Variante B anzeigen
+?v=c   → Variante C anzeigen
+?v=d   → Variante D anzeigen
+
+Beispiel:
+file:///Volumes/Ext_aM_1TB/_Akquise/Interessenten/Webseite_Alexander_Maeding/index.html?v=b
+
+
+HINWEIS
+-------
+
+Das Tracking speichert die Daten lokal im Browser (localStorage).
+Es werden keine externen Server genutzt — alles bleibt auf dem Gerät des Besuchers.
+Die Statistiken sind pro Browser getrennt — nicht geräteübergreifend.
