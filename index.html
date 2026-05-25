@@ -384,8 +384,9 @@
       .hero__content { padding: 50px 0 40px; max-width: 100%; }
       .hero__h1 { font-size: 2.2rem; }
       .hero__sub { font-size: .95rem; }
-      .hero__stats { gap: 1.5rem; }
-      .hero__stat-num { font-size: 1.7rem; }
+      .hero__stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; }
+      .hero__stat-num { font-size: 1.6rem; }
+      .hero__stat-label { font-size: .68rem; }
       .hero__actions { gap: .75rem; }
       .hero__audio-player { min-width: 0; width: 100%; max-width: 320px; padding: .5rem 1.4rem .5rem .5rem; }
       .pain__grid { grid-template-columns: 1fr; }
@@ -413,7 +414,8 @@
       .hero__h1 { font-size: 1.9rem; }
       .hero__badge { font-size: .68rem; }
       .hero__sub { font-size: .88rem; }
-      .hero__stat-num { font-size: 1.5rem; }
+      .hero__stat-num { font-size: 1.35rem; }
+      .hero__stat-label { font-size: .62rem; }
       .pain__stat-num { font-size: 2.2rem; }
       .hero__audio-player { max-width: 100%; }
       .audio-meta { display: none; }
@@ -1224,7 +1226,7 @@ Webdesign für Arztpraxen · GKV &amp; Privatpraxen · DACH-Raum
         </div>
         <div>
           <div class="hero__stat-num">1<span>:1</span></div>
-          <div class="hero__stat-label">Direktkontakt — ich, kein Projektleiter</div>
+          <div class="hero__stat-label">Direktkontakt – kein Projektleiter</div>
         </div>
       </div>
     </div><!-- /hero__content -->
@@ -1660,7 +1662,6 @@ Webdesign für Arztpraxen · GKV &amp; Privatpraxen · DACH-Raum
 
       <div class="ehrlich-card ehrlich-card--quote">
         <p class="ehrlich-card__quote">„Ich baue keine Webseite, die ich selbst nicht gut finde. Das ist mein Anspruch — an mich und an das, was ich für Sie tue."</p>
-        <span class="ehrlich-card__sig" style="font-family:'BillyOhio','Caveat',cursive;font-size:2rem;color:#0D1C40;line-height:1;">Alexander Maeding</span>
       </div>
 
     </div>
@@ -1900,7 +1901,7 @@ Webdesign für Arztpraxen · GKV &amp; Privatpraxen · DACH-Raum
       <div class="tag" style="justify-content:center;">Kontakt</div>
       <h2 class="kontakt__h2">Bereit für Ihre<br><em>neue Webseite?</em></h2>
       <p class="kontakt__sub">Schreiben Sie mir kurz, was Sie sich vorstellen — ich melde mich persönlich innerhalb von 24 Stunden. Kein Formular-Ping-Pong. Keine Warteschlange.</p>
-      <div class="marginnote marginnote--center" data-ann style="margin-bottom:2rem;font-size:1.5rem;">Keine Scheu — das kostet noch nichts. Ich freu mich auf Ihre Nachricht ☺</div>
+      <div class="marginnote marginnote--center" data-ann style="margin-bottom:2rem;font-size:1.5rem;">Keine Scheu — das kostet noch nichts. Ich freu mich auf Ihre Nachricht.</div>
       <div class="kontakt__cards">
         <a href="#" data-wa="1" class="kontakt-card" target="_blank" rel="noopener" aria-label="Per WhatsApp schreiben">
           <div class="kontakt-card__icon" style="background:rgba(13,122,138,.1);">
@@ -1921,7 +1922,6 @@ Webdesign für Arztpraxen · GKV &amp; Privatpraxen · DACH-Raum
       </div>
       <div class="kontakt__signatur">
         <p class="kontakt__signatur-text">Keine Scheu — das kostet noch nichts. Ich freu mich auf Ihre Nachricht.</p>
-        <span class="kontakt__signatur-name-written">Alexander Maeding</span>
         <p class="kontakt__signatur-label">Webdesign für Arztpraxen</p>
 
 
