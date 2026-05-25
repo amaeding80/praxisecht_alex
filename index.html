@@ -387,8 +387,10 @@
       .hero__stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; }
       .hero__stat-num { font-size: 1.6rem; }
       .hero__stat-label { font-size: .68rem; }
-      .hero__actions { gap: .75rem; }
-      .hero__audio-player { min-width: 0; width: 100%; max-width: 320px; padding: .5rem 1.4rem .5rem .5rem; }
+      .hero__actions { gap: .6rem; flex-direction: column; align-items: flex-start; }
+      .hero .btn--primary { font-size: .85rem; padding: .65rem 1.3rem; }
+      .audio-meta { display: none; }
+      .hero__audio-player { min-width: 0; width: auto; padding: .4rem; }
       .pain__grid { grid-template-columns: 1fr; }
       .pain__right { order: -1; }
       .leistungen__grid { grid-template-columns: 1fr; }
@@ -417,9 +419,7 @@
       .hero__stat-num { font-size: 1.35rem; }
       .hero__stat-label { font-size: .62rem; }
       .pain__stat-num { font-size: 2.2rem; }
-      .hero__audio-player { max-width: 100%; }
-      .audio-meta { display: none; }
-      .btn { font-size: .82rem; padding: .7rem 1.3rem; }
+      .hero .btn--primary { font-size: .78rem; padding: .55rem 1.1rem; }
     }
 
     /* Tablet Portrait (768–1023px) */
